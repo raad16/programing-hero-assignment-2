@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orange{
+    color: orange;
+}
+
+
+
+.sky-blue{
+    color: skyblue;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo img{
+    height: 62px;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-right: 32px;
+}
+
+.home{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: orange;
+}
+
+.contact-btn{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.banner{
+    max-width: 1158px;
+    display: flex;
+    gap: 50px;
+    margin: 0 140px;
+    align-items: center;
+}
+
+.banner-content{
+    max-width: 640px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+
+}
+
+.enrooll-btn{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .navbar{
+        margin: 0;
+        padding: 12px 16px;
+        max-width: 390px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid orange ;
+    }
+
+    
+   
+
+    .brand{
+        display: none;
+    }
+   
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .hamburger{
+        display: block;
+        width: 30px;
+    }
+
+    .contact-btn{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0 16px;
+    }
+
+    .banner img{
+        max-width: 336px;
+        height: auto;
+    }
+
+
+    
+}
